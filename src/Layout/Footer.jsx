@@ -1,5 +1,5 @@
 // ICONS
-import { RiFacebookBoxFill } from "react-icons/ri";
+import { RiFacebookBoxFill, RiInstagramFill } from "react-icons/ri";
 import { FaMobileScreen } from "react-icons/fa6";
 import { IoIosMail } from "react-icons/io";
 import { FaRegCopyright } from "react-icons/fa";
@@ -32,17 +32,17 @@ const Footer = () => {
       {/* LEFT COL */}
       <div className={styles.leftCol}>
         <div className={styles.socials}>
-          {/* <a href="">
+          <a href="">
             <div className="flex items-center">
               <RiInstagramFill size={28} className={styles.icon} />{" "}
-              <p className="ml-2 text-white">/LA_Groundworks</p>
+              <p className="ml-2 text-white">/CER_Services</p>
             </div>
-          </a> */}
+          </a>
 
           <a href="https://www.facebook.com/profile.php?id=61562553350683">
             <div className="flex items-center">
               <RiFacebookBoxFill size={28} className={styles.icon} />{" "}
-              <p className="ml-2 text-white">Town 2 Town Movers</p>
+              <p className="ml-2 text-white">CER Services</p>
             </div>
             {/* <div className="flex items-center">
               <p className=" text-white mb-4">___________________</p>
@@ -50,11 +50,11 @@ const Footer = () => {
           </a>
           <div className="flex items-center">
             <IoIosMail size={28} className={styles.icon} />{" "}
-            <p className="ml-2 text-white">hello@town2townmovers.com</p>
+            <p className="ml-2 text-white">hello@cerservices.com</p>
           </div>
           <div className="flex items-center">
             <FaMobileScreen size={28} className={styles.icon} />{" "}
-            <p className="ml-2 text-white">07359 741819</p>
+            <p className="ml-2 text-white">07984 517561</p>
           </div>
         </div>
       </div>

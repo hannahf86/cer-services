@@ -6,6 +6,7 @@ import ReviewCard from "../Components/ReviewCard";
 
 // PAGES
 import Repair from "./Repair";
+import Latest from "./Latest";
 
 // ICONS
 import { FaCheck, FaReceipt } from "react-icons/fa";
@@ -25,19 +26,19 @@ const Landing = () => {
     background: "pt-20 h-full w-full",
 
     headlineContainer: "absolute top-24 bg-transparent",
-    headlineTitle: "text-accent text-2xl text-left px-2 bg-transparent",
+    headlineTitle: "text-accent text-2xl text-left px-4 bg-transparent",
     subtitle:
-      "font-body text-white text-base font-light text-left px-2 pb-2 bg-transparent",
-    listContainer: "flex-col px-4 mt-4 ",
+      "font-body text-white text-base font-light text-left px-4 pb-2 bg-transparent",
+    listContainer: "flex-col px-6 mt-4 ",
     listItem:
       "font-headers font-bold flex justify-start items-center bg-transparent text-white my-1",
     check: "text-green bg-transparent mr-2",
     button:
-      "absolute right-0 bg-accent text-sm text-white flex flex-col text-center p-2 w-40 rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "absolute right-4 bg-accent text-sm text-white flex flex-col text-center p-2 rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
     buttonIcon: "mx-auto mb-1 font-outline-2",
 
     sectionTitle:
-      "text-6xl text-right mt-20 mx-6 text-accent font-bold font-outline-2",
+      "text-6xl text-right mt-12 mb-4 mx-6 text-accent font-bold font-outline-2",
   };
 
   return (
@@ -141,6 +142,9 @@ const Landing = () => {
 
       {/* REPAIR */}
       <Repair />
+
+      {/* LATEST */}
+      <Latest />
     </div>
   );
 };
