@@ -15,6 +15,10 @@ import Footer from "./Footer";
 
 // ICONS
 import { HiHome, HiBriefcase, HiBookOpen, HiMail } from "react-icons/hi";
+import { FaReceipt } from "react-icons/fa";
+
+// IMAGES
+import logo from "../Assets/Logo/logo-02.jpg";
 
 const variants = {
   open: {
@@ -44,7 +48,7 @@ const RootNav = () => {
   // STYLES
   const mobileStyles = {
     container: "fixed w-full h-20 bg-black z-40",
-    logo: "absolute right-16 z-[99] cursor-pointer",
+    logo: "absolute left-6 top-4 z-[99] ",
     fullMenu:
       "bg-black/80 fixed w-full h-screen p-20 md:p-0 flex flex-col justify-center items-center z-30 md:w-2/6",
     menuItem:
@@ -58,6 +62,13 @@ const RootNav = () => {
     button:
       "bg-attention text-black font-bold text-center text-sm px-6 py-2 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention mb-12",
   };
+  const fixedBottomCTA = {
+    background:
+      "fixed inset-x-0 bottom-0 w-screen flex justify-between p-4 bg-black z-[99]",
+    button:
+      "bg-accent text-white flex flex-col text-center p-2 w-40 rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+    buttonIcon: "mx-auto mb-1",
+  };
 
   return (
     <div id="rootNav">
@@ -67,7 +78,7 @@ const RootNav = () => {
         className={mobileStyles.container}
         animate={open ? "open" : "closed"}>
         <div className={mobileStyles.logo}>
-          {/* <img src={} width={91} alt="logo" /> */}
+          <img src={logo} width={100} alt="cer services logo" />
         </div>
 
         <motion.div variants={variants} className={mobileStyles.fullMenu}>
@@ -119,6 +130,22 @@ const RootNav = () => {
           Get a free quote
         </Link>
       </nav>
+
+      <div className={fixedBottomCTA.background}>
+        <Link to="contact">
+          <div className={fixedBottomCTA.button}>
+            <FaReceipt size={25} className={fixedBottomCTA.buttonIcon} />
+            Request a quote
+          </div>
+        </Link>
+
+        <Link to="contact">
+          <div className={fixedBottomCTA.button}>
+            <FaReceipt size={25} className={fixedBottomCTA.buttonIcon} />
+            Emergency Contact
+          </div>
+        </Link>
+      </div>
 
       <main>
         <Outlet />

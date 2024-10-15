@@ -6,12 +6,16 @@ export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
     extend: {
+      fontFamily: {
+        headers: "Kallisto",
+        body: ["Maven Pro", "sans-serif"],
+      },
       colors: {
         black: "#141414",
         accent: "#F67A3B",
         white: "#F9F9F9",
         attention: "#A14DB9",
-        stars: "#F6CA3B",
+        star: "#F6CA3B",
         red: "#FB4444",
         green: "#65CF69",
       },
@@ -20,16 +24,6 @@ export default {
         sm: "640px",
         md: "768px",
         mdMid: "880px",
-      },
-      container: {
-        center: true,
-        padding: {
-          DEFAULT: "1rem",
-          sm: "2rem",
-          lg: "4rem",
-          xl: "5rem",
-          "2xl": "6rem",
-        },
       },
       fontSize: {
         xs: ["clamp(0.90rem, calc(0.82rem + 0.29vw), 0.8rem)", "1.4"],

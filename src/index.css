@@ -2,8 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
+body {
   background-color: #f9f9f9;
+}
+
+@layer base {
+  .font-outline-1 {
+    -webkit-text-stroke: 1px #a14db9;
+  }
+  .font-outline-2 {
+    -webkit-text-stroke: 2px #a14db9;
+  }
+  .font-outline-4 {
+    -webkit-text-stroke: 4px #a14db9;
+  }
 }
 
 /* TYPOGRAPHY */
