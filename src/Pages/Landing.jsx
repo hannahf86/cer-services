@@ -8,6 +8,13 @@ import { HiMiniStar } from "react-icons/hi2";
 import ReviewCard from "../Components/ReviewCard";
 
 // IMAGES
+import mobile from "../Assets/Background/mobile.webp";
+import xs from "../Assets/Background/xs.webp";
+import sm from "../Assets/Background/sm.webp";
+import md from "../Assets/Background/md.webp";
+import midMd from "../Assets/Background/midMd.webp";
+import lg from "../Assets/Background/lg.webp";
+import xl from "../Assets/Background/xl.webp";
 
 const Landing = () => {
   const styles = {
@@ -22,8 +29,43 @@ const Landing = () => {
   return (
     <div id="landing" className={styles.background}>
       {/* PAGE TITLE */}
-      <div className="container">
-        <img src={""} alt="logo" className="w-32 mx-auto pt-6" />
+      <div className="w-full">
+        <img
+          src={mobile}
+          alt="classic red pick up truck"
+          className="block hidden-xs"
+        />
+        <img
+          src={xs}
+          alt="classic red pick up truck"
+          className="hidden block-xs hidden-sm"
+        />
+        <img
+          src={sm}
+          alt="classic red pick up truck"
+          className="hidden block-sm hidden-md"
+        />
+        <img
+          src={md}
+          alt="classic red pick up truck"
+          className="hidden block-md hidden-midMd"
+        />
+        <img
+          src={midMd}
+          alt="classic red pick up truck"
+          className="hidden block-midMd hidden-lg"
+        />
+        <img
+          src={lg}
+          alt="classic red pick up truck"
+          className="hidden block-lg hidden-xl"
+        />
+        <img
+          src={xl}
+          alt="classic red pick up truck"
+          className="hidden block-xl"
+        />
+
         <h1 className={styles.title}>
           TOWN 2 TOWN <h1 className="text-attention">MOVERS</h1>
         </h1>
