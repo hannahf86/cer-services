@@ -7,6 +7,7 @@ import ReviewCard from "../Components/ReviewCard";
 // PAGES
 import Repair from "./Repair";
 import Latest from "./Latest";
+import Contact from "./Contact";
 
 // ICONS
 import { FaCheck, FaReceipt } from "react-icons/fa";
@@ -145,6 +146,9 @@ const Landing = () => {
 
       {/* LATEST */}
       <Latest />
+
+      {/* LATEST */}
+      <Contact />
     </div>
   );
 };

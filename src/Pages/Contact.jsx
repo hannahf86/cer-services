@@ -45,16 +45,16 @@ const Contact = () => {
 
   // STYLES
   const mobileStyles = {
-    background: "flex flex-col relative bg-white pt-28",
-    titleContainer: "",
-    title: "text-center text-5xl text-accent font-bold tracking-wider mb-8",
-    tagline: "text-black my-4 text-center mx-6 text-base",
+    background: "h-full w-full px-6",
+    sectionTitle:
+      "text-6xl text-left mt-20 mb-2 text-accent font-bold font-outline-2",
+    tagline: "text-black my-4 text-center text-base",
     form: "p-4 w-full md:w-4/6 m-auto mt-4 flex flex-col justify-center mb-20",
     input: "py-2 pl-4 border-2 border-attention rounded-sm mx-auto mb-4 w-5/6 ",
     message:
       "py-3 pl-3 border-2 border-attention h-32 rounded-md mx-auto mb-4 h-28 w-5/6",
     button:
-      "bg-accent text-sm text-white flex flex-col text-center p-2 w-5/6 m-auto rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "bg-accent text-sm text-white flex flex-col text-center p-2 w-5/6 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
   };
 
   return (
@@ -63,18 +63,18 @@ const Contact = () => {
       <section className={mobileStyles.background}>
         {/* TITLE */}
         <div className={mobileStyles.titleContainer}>
-          <h2 className={mobileStyles.title}>Contact</h2>
+          <h2 className={mobileStyles.sectionTitle}>Contact</h2>
 
           {/* EMERGENCY SECTION */}
-          <div className="bg-accent px-6 py-8">
-            <h2 className="text-black text-xl text-center">
+          <div className="bg-accent px-6 py-8 mt-8">
+            <h2 className="text-black text-lg text-center">
               For emergencies, contact Jim & Dougie directly on:
             </h2>
             <div className="flex justify-center items-center text-white py-6">
               <FaMobileScreen size={28} className="mr-2" />
-              <h1 className="text-4xl text-center">07984 517561</h1>
+              <h1 className="text-3xl text-center">07984 517561</h1>
             </div>
-            <h3 className="text-right text-base">
+            <h3 className="text-center text-base">
               We&apos;ll be with you ASAP!
             </h3>
           </div>
