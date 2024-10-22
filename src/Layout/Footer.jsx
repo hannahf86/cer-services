@@ -10,7 +10,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   const styles = {
     background:
-      "bg-accent bottom-0 py-8 grid grid-cols-2 px-1 md:px-24 lg:px-40 pb-20",
+      "bg-accent bottom-0 py-8 grid grid-cols-2 px-1 md:px-24 lg:px-40 pb-20 sm:pb-0",
 
     leftCol:
       "ml-6 md:ml-12 flex flex-col col-start-1 col-span-2 sm:col-span-1 self-center",

@@ -47,7 +47,7 @@ const Contact = () => {
 
   // STYLES
   const mobileStyles = {
-    background: "h-full w-full px-6",
+    background: "h-full w-full px-6 xs:px-8 sm:px-12",
     sectionTitle:
       "text-6xl text-left pt-32 mb-2 text-accent font-bold font-outline-2",
     tagline: "text-black my-4 text-center text-base",

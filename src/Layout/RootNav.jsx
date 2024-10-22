@@ -64,7 +64,7 @@ const RootNav = () => {
   };
   const fixedBottomCTA = {
     background:
-      "fixed inset-x-0 bottom-0 w-screen flex justify-between p-4 bg-black z-[99]",
+      "sm:hidden fixed inset-x-0 bottom-0 w-screen flex justify-between p-4 bg-black z-[99]",
     button:
       "bg-accent text-white flex flex-col text-center p-2 w-40 rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
     buttonIcon: "mx-auto mb-1",

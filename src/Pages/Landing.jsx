@@ -27,15 +27,16 @@ const Landing = () => {
     background: "pt-20 h-full w-full",
 
     headlineContainer: "absolute top-24 bg-transparent",
-    headlineTitle: "text-accent text-2xl text-left px-4 bg-transparent",
+    headlineTitle:
+      "text-accent text-2xl sm:text-3xl text-left px-4 bg-transparent xs:px-8 sm:px-12",
     subtitle:
-      "font-body text-white text-base font-light text-left px-4 pb-2 bg-transparent",
-    listContainer: "flex-col px-6 mt-4 ",
+      "font-body text-white text-base sm:text-lg font-light text-left px-4 pb-2 bg-transparent xs:pt-4 xs:px-8 sm:px-12",
+    listContainer: "flex-col px-6 mt-4 xs:pt-2 sm:px-12",
     listItem:
-      "font-headers font-bold flex justify-start items-center bg-transparent text-white my-1",
+      "font-headers font-bold flex justify-start items-center bg-transparent sm:text-base text-white my-1 xs:my-2 sm:my-6",
     check: "text-green bg-transparent mr-2",
     button:
-      "absolute right-4 bg-accent text-sm text-white flex flex-col text-center p-2 rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "absolute right-4 xs:right-4 xs:mt-2 sm:px-8 sm:py-4 bg-accent text-sm text-white flex flex-col text-center p-2 rounded-sm  hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
     buttonIcon: "mx-auto mb-1 font-outline-2",
 
     sectionTitle:

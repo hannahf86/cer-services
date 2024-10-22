@@ -6,15 +6,15 @@ import { useNavigate } from "react-router-dom";
 
 const Repair = () => {
   const styles = {
-    background: "h-full w-full px-6",
+    background: "h-full w-full px-6 xs:px-8 sm:px-12",
     sectionTitle:
-      "text-6xl text-left mt-20 mb-2 text-accent font-bold font-outline-2",
+      "text-6xl text-left mt-20 mb-8 text-accent font-bold font-outline-2",
     sectionSubtitle: "text-md text-left mb-4 text-black/80",
     text: "font-light text-justify mb-4",
     form: "mb-8",
-    select: "border border-2 border-attention w-full rounded-sm p-2",
+    select: "border border-2 border-attention w-full sm:w-3/5 rounded-sm p-2",
     button:
-      "bg-accent mt-4 text-sm px-4 text-white text-center p-2 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "bg-accent mt-4 text-sm px-4 xs:px-6 text-white text-center p-2 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
   };
 
   // NAVIGATION
@@ -32,7 +32,7 @@ const Repair = () => {
   const handleSubmit = (event) => {
     event.preventDefault();
     setVehicleData(event.target.vehicle.value); // get form data
-    newPage("/repairform"); // navigate to the repair form page
+    newPage("/repairform"); // navigate to the repair form component
   };
 
   console.log(vehicleData);
