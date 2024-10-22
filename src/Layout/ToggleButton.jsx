@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const ToggleButton = ({ setOpen }) => {
   // STYLES
   const styles = {
-    hamburger: "absolute top-7 right-14 z-40 cursor-pointer",
+    hamburger: "absolute top-7 right-6 z-40 cursor-pointer",
   };
 
   return (

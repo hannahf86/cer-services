@@ -14,6 +14,7 @@ const Contact = () => {
   // CLEAR FORM
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
+  const [mobile, setMobile] = useState("");
   const [message, setMessage] = useState("");
 
   // EMAIL JS
@@ -23,10 +24,11 @@ const Contact = () => {
     e.preventDefault();
     setName("");
     setEmail("");
+    setMobile("");
     setMessage("");
 
     emailjs
-      .sendForm("service_hp57nnb", "template_03kyed8", formRef.current, {
+      .sendForm("service_sy7jxem", "template_mze54hh", formRef.current, {
         publicKey: "CLllgrNb6UYby4AOj",
       })
       .then(
@@ -47,7 +49,7 @@ const Contact = () => {
   const mobileStyles = {
     background: "h-full w-full px-6",
     sectionTitle:
-      "text-6xl text-left mt-20 mb-2 text-accent font-bold font-outline-2",
+      "text-6xl text-left pt-32 mb-2 text-accent font-bold font-outline-2",
     tagline: "text-black my-4 text-center text-base",
     form: "p-4 w-full md:w-4/6 m-auto mt-4 flex flex-col justify-center mb-20",
     input: "py-2 pl-4 border-2 border-attention rounded-sm mx-auto mb-4 w-5/6 ",
@@ -109,11 +111,11 @@ const Contact = () => {
           />
           <input
             type="text"
-            name="message"
+            name="user_number"
             aria-label="phone number input"
-            value={name}
+            value={mobile}
             placeholder="Phone number"
-            onChange={(e) => setName(e.target.value)}
+            onChange={(e) => setMobile(e.target.value)}
             className={mobileStyles.input}
             required
           />
