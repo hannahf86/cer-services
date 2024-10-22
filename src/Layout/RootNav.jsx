@@ -90,12 +90,12 @@ const RootNav = () => {
               </span>
             </Link>
 
-            <Link to="services">
+            {/* <Link to="services">
               <span className={mobileStyles.menuItem}>
                 <HiBriefcase className={mobileStyles.menuIcon} />
                 <p className="text-sm sm:text-md">Services</p>
               </span>
-            </Link>
+            </Link> */}
 
             <Link to="about">
               <span className={mobileStyles.menuItem}>
