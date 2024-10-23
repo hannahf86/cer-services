@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import ReviewCard from "../Components/ReviewCard";
 
 // PAGES
-import Repair from "./Repair";
+// import Repair from "./Repair";
 import Latest from "./Latest";
 import Contact from "./Contact";
 
@@ -143,7 +143,7 @@ const Landing = () => {
       </div>
 
       {/* REPAIR */}
-      <Repair />
+      {/* <Repair /> */}
 
       {/* LATEST */}
       <Latest />

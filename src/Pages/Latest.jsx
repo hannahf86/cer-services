@@ -5,7 +5,7 @@ const Latest = () => {
   const styles = {
     background: "h-full w-full px-6 xs:px-8 sm:px-12",
     sectionTitle:
-      "text-6xl text-right pt-20 mb-8 text-accent font-bold font-outline-2",
+      "text-6xl text-left pt-20 mb-8 text-accent font-bold font-outline-2",
   };
 
   return (
