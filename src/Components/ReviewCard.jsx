@@ -13,7 +13,7 @@ import { FaQuoteLeft, FaQuoteRight } from "react-icons/fa";
 const ReviewCard = () => {
   const styles = {
     cardContainer:
-      "bg-white border border-4 border-accent rounded-md w-4/5 m-auto my-2 p-2",
+      "bg-white border border-4 border-accent rounded-md m-auto my-2 p-2 ",
     headline:
       "text-center font-bold text-accent text-lg lg:text-sm md:text-base font-outline-1",
     review: "text-center text-black text-md px-4",
@@ -32,17 +32,18 @@ const ReviewCard = () => {
       {
         breakpoint: 1024,
         settings: {
-          dots: false,
-          slidesToShow: 3,
-          slidesToScroll: 3,
+          dots: true,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           infinite: true,
+          autoplay: true,
         },
       },
       {
         breakpoint: 800,
         settings: {
-          slidesToShow: 2,
-          slidesToScroll: 2,
+          slidesToShow: 1,
+          slidesToScroll: 1,
           initialSlide: 2,
           infinite: true,
           dots: true,

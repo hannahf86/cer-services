@@ -57,10 +57,10 @@ const RootNav = () => {
   };
 
   const desktopStyles = {
-    nav: "hidden md:block bg-transparent z-40 absolute top-7 right-6 mr-8",
+    nav: "hidden lg:block bg-transparent z-40 absolute top-7 right-6 mr-8",
     link: "font-bold mx-12 text-white hover:bg-accent p-2 rounded-sm",
     button:
-      "bg-attention text-black font-bold text-center text-sm px-6 py-2 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention mb-12",
+      "bg-accent text-white font-bold text-center text-sm px-6 py-2 my-3 rounded-md hover:outline outline-4 outline-offset-4 outline-attention mb-12",
   };
   const fixedBottomCTA = {
     background:

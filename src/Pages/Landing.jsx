@@ -33,10 +33,10 @@ const Landing = () => {
       "font-body text-white text-base sm:text-lg font-light text-left px-4 pb-2 bg-transparent xs:pt-4 xs:px-8 sm:px-12",
     listContainer: "flex-col px-6 mt-4 xs:pt-2 sm:px-12",
     listItem:
-      "font-headers font-bold flex justify-start items-center bg-transparent sm:text-base text-white my-1 xs:my-2 sm:my-6",
+      "font-headers font-bold flex justify-start items-center bg-transparent sm:text-base text-white my-1 xs:my-2 sm:my-6 md:my-2",
     check: "text-green bg-transparent mr-2",
     button:
-      "absolute right-4 xs:right-4 xs:mt-2 sm:px-8 sm:py-4 bg-accent text-sm text-white flex flex-col text-center p-2 rounded-sm  hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "absolute right-4 xs:right-4 xs:mt-2 xsSm:right-0 xsSm:mt-12 sm:px-8 sm:py-4 md:top-60 md:right-0 bg-accent text-sm text-white flex flex-col text-center p-2 rounded-sm  hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
     buttonIcon: "mx-auto mb-1 font-outline-2",
 
     sectionTitle:
@@ -61,22 +61,22 @@ const Landing = () => {
           <img
             src={sm}
             alt="classic red pick up truck"
-            className="hidden sm:block"
+            className="hidden sm:block md:hidden"
           />
           <img
             src={md}
             alt="classic red pick up truck"
-            className="hidden md:block"
+            className="hidden md:block mdMid:hidden"
           />
           <img
             src={mdMid}
             alt="classic red pick up truck"
-            className="hidden mdMid:block"
+            className="hidden mdMid:block lg:hidden"
           />
           <img
             src={lg}
             alt="classic red pick up truck"
-            className="hidden lg:block"
+            className="hidden lg:block xl:hidden"
           />
           <img
             src={xl}
@@ -137,7 +137,7 @@ const Landing = () => {
 
         {/* REVIEW CARD */}
         <h1 className={styles.sectionTitle}>REVIEWS</h1>
-        <div className="p-6">
+        <div className="p-6 md:mx-32">
           <ReviewCard />
         </div>
       </div>
