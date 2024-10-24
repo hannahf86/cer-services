@@ -15,7 +15,7 @@ const ReviewCard = () => {
     cardContainer:
       "bg-white border border-4 border-accent rounded-md m-auto my-2 p-2 ",
     headline:
-      "text-center font-bold text-accent text-lg lg:text-sm md:text-base font-outline-1",
+      "text-center font-bold text-accent text-lg lg:text-xl md:text-base font-outline-1",
     review: "text-center text-black text-md px-4",
     name: "text-accent text-base text-right font-bold mt-6 px-6",
   };
@@ -25,9 +25,11 @@ const ReviewCard = () => {
     infinite: true,
     speed: 800,
     autoplaySpeed: 4000,
-    slidesToShow: 3,
-    slidesToScroll: 3,
+    dots: true,
+    slidesToShow: 1,
+    slidesToScroll: 1,
     initialSlide: 0,
+    autoplay: true,
     responsive: [
       {
         breakpoint: 1024,
@@ -73,7 +75,7 @@ const ReviewCard = () => {
               <h2 className={styles.headline}>{review.headline}</h2>
               <FaQuoteRight className="ml-2 text-accent stroke-1 stroke-attention" />
             </div>
-            <div className="flex justify-between px-20 mb-4">
+            <div className="flex justify-between px-20 mb-4 lg:mx-40">
               <HiMiniStar size={25} className="text-star" />
               <HiMiniStar size={25} className="text-star" />
               <HiMiniStar size={25} className="text-star" />

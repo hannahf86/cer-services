@@ -18,7 +18,7 @@ const About = () => {
     cTATag: "text-accent text-center mt-4 text-md font-light",
     buttonContainer: "flex justify-center my-4",
     button:
-      "bg-accent font-bold text-sm text-white flex flex-col text-center p-2 w-5/6 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "bg-accent font-bold text-sm text-white flex flex-col text-center p-2 w-5/6 lg:w-2/6 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
   };
 
   return (
@@ -49,7 +49,7 @@ const About = () => {
           <br />
         </p>
         <div className="lg:grid grid-cols-2">
-          <p className="text-base mx-8 md:text-md md:mx-12 lg:ml-8 lg:mt-16 text-justify lg:pt-12">
+          <p className="text-base mx-8 md:text-md md:mx-12 lg:ml-8 text-justify lg:pt-12">
             Your trust matters to us, and we're committed to getting you back on
             the road quickly and safely. For reliable, friendly service you can
             count on, come to Jim and Dougie at CER Services, where you’re

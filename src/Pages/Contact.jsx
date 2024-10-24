@@ -50,13 +50,13 @@ const Contact = () => {
     background: "h-full w-full px-6 xs:px-8 sm:px-12",
     sectionTitle:
       "text-6xl text-left pt-32 mb-2 text-accent font-bold font-outline-2",
-    tagline: "text-black my-4 text-center text-base",
+    tagline: "text-black my-4 text-center text-base lg:mt-16",
     form: "p-4 w-full md:w-4/6 m-auto mt-4 flex flex-col justify-center mb-20",
     input: "py-2 pl-4 border-2 border-attention rounded-sm mx-auto mb-4 w-5/6 ",
     message:
       "py-3 pl-3 border-2 border-attention h-32 rounded-md mx-auto mb-4 h-28 w-5/6",
     button:
-      "bg-accent text-sm text-white flex flex-col text-center p-2 w-5/6 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "bg-accent font-bold text-sm text-white flex flex-col text-center p-2 w-5/6 m-auto rounded-sm shadow-md shadow-black/50 hover:shadow-inner hover:shadow-black/50 hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
   };
 
   return (

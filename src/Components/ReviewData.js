@@ -21,7 +21,7 @@ const reviewData = [
     name: "Chris",
     date: "Nov",
     review:
-      "Jim and Dougie are really good at what they do, can ring them up and they will get you in ASAP. They dont just do jobs without asking you. Reasonable with there prices. Cheers car lads!",
+      "Jim and Dougie are really good at what they do, can ring them up and they will get you in ASAP. They dont just do jobs without asking you. Reasonable with there prices. Cheers lads!",
   },
 ];
 

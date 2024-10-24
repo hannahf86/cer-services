@@ -19,7 +19,7 @@ const Footer = () => {
 
     rightCol:
       "mx-6 mt-6 col-start-1 row-start-2 flex justify-between col-span-2 text-center sm:col-start-2 sm:row-start-1 sm:flex-col sm:ml-0 sm:text-right sm:self-center sm:mr-6 sm:mt-0 md:mr-12",
-    link: "text-white my-1 hover:bg-orange hover:text-accent py-1 px-1",
+    link: "text-white my-1 hover:bg-orange hover:text-black py-1 px-1",
 
     bottomRow: "col-start-1 col-end-3 flex justify-center mt-6",
     webTextContainer:
@@ -41,13 +41,13 @@ const Footer = () => {
             <IoIosMail size={28} className={styles.icon} />{" "}
             <p className="ml-2 text-white">hello@cerservices.com</p>
           </div>
-
+          {/* 
           <a href="">
             <div className="flex items-center">
               <RiInstagramFill size={28} className={styles.icon} />{" "}
               <p className="ml-2 text-white">/CER_Services</p>
             </div>
-          </a>
+          </a> */}
 
           <a href="https://www.facebook.com/profile.php?id=61562553350683">
             <div className="flex items-center">
@@ -69,9 +69,7 @@ const Footer = () => {
         <Link to="/" className={styles.link}>
           Home
         </Link>
-        <Link to="services" className={styles.link}>
-          Services
-        </Link>
+
         <Link to="about" className={styles.link}>
           About
         </Link>
