@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className="flex items-center">
             <IoIosMail size={28} className={styles.icon} />{" "}
-            <p className="ml-2 text-white">hello@cerservices.com</p>
+            <p className="ml-2 text-white">hello@cerservices-york.com</p>
           </div>
           {/* 
           <a href="">
