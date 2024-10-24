@@ -60,13 +60,13 @@ const RootNav = () => {
     nav: "hidden lg:fixed lg:block bg-transparent z-40 absolute top-7 right-6 mr-8",
     link: "font-bold mx-12 text-white hover:bg-accent p-2 rounded-sm",
     button:
-      "bg-accent text-white font-bold text-center text-sm px-6 py-2 my-3 mr-12 rounded-md hover:outline outline-4 outline-offset-4 outline-attention mb-12",
+      "bg-accent text-white font-bold text-center text-sm px-6 py-2 my-3 mr-12 rounded-md hover:outline outline-4 outline-offset-4 outline-accent mb-12",
   };
   const fixedBottomCTA = {
     background:
       "sm:hidden fixed inset-x-0 bottom-0 w-screen flex justify-between p-4 bg-black z-[99]",
     button:
-      "bg-accent text-white flex flex-col text-center p-2 w-40 rounded-sm border border-2 border-attention hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
+      "bg-accent text-white flex flex-col text-center p-2 w-40 rounded-sm border border-2 border-accent hover:text-black hover:outline outline-2 outline-offset-4 outline-accent",
     buttonIcon: "mx-auto mb-1",
   };
 

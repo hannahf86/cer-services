@@ -75,7 +75,7 @@ const ReviewCard = () => {
               <h2 className={styles.headline}>{review.headline}</h2>
               <FaQuoteRight className="ml-2 text-accent stroke-1 stroke-attention" />
             </div>
-            <div className="flex justify-between px-20 mb-4 lg:mx-40">
+            <div className="flex justify-between px-20 mb-4 lg:mx-40 xl:mx-80">
               <HiMiniStar size={25} className="text-star" />
               <HiMiniStar size={25} className="text-star" />
               <HiMiniStar size={25} className="text-star" />
