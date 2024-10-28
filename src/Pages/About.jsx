@@ -69,7 +69,7 @@ const About = () => {
           </h3>
           <div className="flex text-accent justify-center items-center my-4">
             <FaMobileAlt size={25} className="mr-2" />
-            <p className="font-bold text-accent text-lg">07359 741819</p>
+            <p className="font-bold text-accent text-lg">07984 517561</p>
           </div>
           <h3 className={mobileStyles.cTATag}>
             Or email us through our contact page
