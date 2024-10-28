@@ -39,7 +39,7 @@ const Footer = () => {
 
           <div className="flex items-center">
             <IoIosMail size={28} className={styles.icon} />{" "}
-            <p className="ml-2 text-white">hello@cerservices.com</p>
+            <p className="ml-2 text-white">hello@cerservices-york.com</p>
           </div>
           {/* 
           <a href="">
@@ -49,7 +49,7 @@ const Footer = () => {
             </div>
           </a> */}
 
-          <a href="https://www.facebook.com/profile.php?id=61562553350683">
+          <a href="https://www.facebook.com/profile.php?id=100062304444848">
             <div className="flex items-center">
               <RiFacebookBoxFill size={28} className={styles.icon} />{" "}
               <p className="ml-2 text-white">CER Services</p>
